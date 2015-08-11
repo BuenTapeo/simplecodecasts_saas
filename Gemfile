@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Use paperclip for image uploads
+gem 'paperclip', '4.2.1'
 # Use devise for user auth
 gem 'devise', '3.4.1'
 # Use stripe for handling payments
